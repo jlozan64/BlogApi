@@ -17,7 +17,7 @@ app.use(express.json())
 
 
 app.get('/', (req, res) => {
-    res.json({ msg: 'Hello There', type: req.method })
+    res.json({ msg: 'Hey There', type: req.method })
 })
 
 app.use(notFound)
